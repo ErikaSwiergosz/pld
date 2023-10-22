@@ -1,0 +1,43 @@
+body {
+    background-color: #000;
+    color: #fff; 
+    font-family: 'Arial', sans-serif;
+    }
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  header {
+    background-image: url('https://images2.alphacoders.com/132/1329016.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-shadow: 2px 2px 4px #000;
+    margin-bottom: 2%;
+  }
+
+.img{
+    margin:6%;
+    height: 600px;  
+    align-items: center;
+}
+
+.text1 {
+    column-count: 3; 
+    column-gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .text1 p {
+    margin-bottom: 5px; 
+  }
+  
